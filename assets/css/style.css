@@ -1,0 +1,37 @@
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Base reusable background layer */
+
+.section-bg {
+  position: absolute;
+  inset: 0;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.10;
+
+  z-index: 0;
+}
+
+/* Page-specific variants */
+
+.section-bg-home {
+  background-image: url('../images/deal.jpg');
+}
+
+.section-bg-process {
+  background-image: url('../images/process.jpg');
+}
+
+.section-bg-philosophy {
+  background-image: url('../images/philosophy.jpg');
+}
+
+.section-bg-team {
+  background-image: url('../images/team.jpg');
+}
